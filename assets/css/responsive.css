@@ -1,0 +1,65 @@
+@media (max-width:500px) {}
+
+@media (min-width:800px) {
+    .mobile-nav.active {
+        display: none;
+    }
+
+    h1 {
+        font-size: 55px;
+        font-family: 'Didot-Regular';
+    }
+
+    h2 {
+        font-size: 45px;
+        font-family: 'Didot-Regular';
+    }
+
+    h3 {
+        font-size: 35px;
+        font-family: 'Raleway-light';
+    }
+
+    h4 {
+        font-size: 30px;
+        font-family: 'Raleway-light';
+
+    }
+
+    h5 {
+        font-size: 25px;
+        font-family: 'Raleway';
+    }
+
+    h6 {
+        font-size: 18px;
+        font-family: 'Raleway';
+    }
+
+    p {
+        font-size: 18px;
+        font-family: 'Raleway';
+    }
+
+    .container {
+        max-width: 90% !important;
+    }
+}
+
+@media (max-width:800px) {
+
+
+    .desktop-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+    }
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:1500px) {}
+
+@media (max-width:2000px) {}
