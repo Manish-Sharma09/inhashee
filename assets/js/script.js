@@ -46,11 +46,12 @@
     $(".other-detail-slider").slick({
       dots: false,
       infinite: true,
-      speed: 600,
+      speed: 1000,
+      cssEase: 'linear',
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 1000,
       arrows: false,
       prevArrow:
         '<button type="button" class="slick-prev"><img src="assets/images/slide_arrow_left.png" alt="Previous"></button>',
