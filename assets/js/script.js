@@ -12,7 +12,7 @@
 
   $(document).ready(function () {
     $(".bannerSlider").slick({
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 600,
       slidesToShow: 1,
@@ -64,11 +64,11 @@
         },
         {
           breakpoint: 992,
-          settings: { slidesToShow: 3 },
+          settings: { slidesToShow: 4 },
         },
         {
           breakpoint: 576,
-          settings: { slidesToShow: 2 },
+          settings: { slidesToShow: 3 },
         },
       ],
     });

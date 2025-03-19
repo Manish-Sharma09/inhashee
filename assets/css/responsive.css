@@ -7,38 +7,38 @@
 
     h1 {
         font-size: 55px;
-        font-family: 'Didot-Regular';
+
     }
 
     h2 {
         font-size: 45px;
-        font-family: 'Didot-Regular';
+
     }
 
     h3 {
         font-size: 35px;
-        font-family: 'Raleway-light';
+
     }
 
     h4 {
         font-size: 30px;
-        font-family: 'Raleway-light';
+
 
     }
 
     h5 {
         font-size: 25px;
-        font-family: 'Raleway';
+
     }
 
     h6 {
         font-size: 18px;
-        font-family: 'Raleway';
+
     }
 
     p {
         font-size: 18px;
-        font-family: 'Raleway';
+
     }
 
     .container {
@@ -56,9 +56,85 @@
     .mobile-header {
         display: flex;
     }
+    .aboutUs  .dets-img img {
+        max-width: 50%;
+    }
+    .dets-content{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .dets-img{
+        text-align: center;
+    }
+    .mobile-header{
+        padding: 5px 20px;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .bannerSlider .slide__text{
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .btn.btn-main{
+        padding: 11px 40px;
+    }
+    .bannerSlider .slide__text h1{
+        margin: 10px 0;
+    }
+    .otherDetail .dets-content{
+        margin-bottom: 0;
+    }
+    .product-box p{
+        text-align: center;
+    }
+    .product-section h2{
+        text-align: center;
+    }
 }
 
-@media (max-width:1200px) {}
+@media (max-width:1200px) {
+    .other-detail-slider .slick-list {
+        padding: 0px 0 0 60px;
+    }
+
+    .slide__image {
+        height: 100%;
+    }
+
+    .slide__image {
+        height: 100%;
+    }
+
+    .dets-content {
+        padding-left: 0px;
+    }
+    .dets-content p:last-child{
+        margin-bottom: 0;
+    }
+    section.aboutUs.detail-section .col-md-4{
+        align-self: end;
+    }
+    section.aboutUs.detail-section{
+        padding-bottom: 50px;
+    }
+    .dets-content p, .dets-content h2{
+        margin-bottom: 20px;
+    }
+    .otherDetail .dets-content{
+        padding: 0 40px 50px 40px;
+    }
+    .inner-content{
+        max-width: 90%;
+    }
+    .product-section{
+        padding: 50px 0;
+    }
+    .footer-logo.logo,.footer-links{
+        text-align: center;
+    }
+}
 
 @media (max-width:1500px) {}
 
