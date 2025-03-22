@@ -550,7 +550,9 @@ img.slide__image__top-position {
 .dets-content h2 {
     margin-bottom: 50px;
 }
-
+.dets-img video {
+    border: 12px double #1B4D4A;
+}
 /* Other Detail CSS */
 
 .otherDetail .dets-content {
