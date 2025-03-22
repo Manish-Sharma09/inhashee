@@ -491,6 +491,7 @@ header {
 
 ul.bannerSlider {
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 
@@ -540,7 +541,9 @@ img.slide__image__top-position {
 }
 
 /* About US CSS */
-
+.aboutUs.detail-section {
+    padding: 50px 0;
+}
 .dets-content {
     text-align: right;
     padding-left: 110px;
