@@ -34,8 +34,55 @@
                             <li>
                                 <a href="about.html">ABOUT US</a>
                             </li>
-                            <li>
-                                <a href="products.html">PRODUCTS</a>
+                            <li class="products-menu">
+                                <a href="javascript:;">PRODUCTS</a>
+                                <!-- Mega Dropdown -->
+                                <div class="mega-menu">
+                                    <!-- Left Side - Categories -->
+                                    <ul class="category-list">
+                                        <li class="category active" data-category="xiaomi">Xiaomi Phones</li>
+                                        <li class="category" data-category="redmi">Redmi Phones</li>
+                                    </ul>
+                                    <!-- Right Side - Products -->
+                                    <div class="products-list">
+                                        <div class="row product-category" id="xiaomi">
+                                            <div class="col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 15 Ultra">
+                                                <p>Xiaomi 15 Ultra</p>
+                                            </div>
+                                            <div class=" col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 15">
+                                                <p>Xiaomi 15</p>
+                                            </div>
+                                            <div class=" col-lg  product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 14 Civi">
+                                                <p>Xiaomi 14 Civi</p>
+                                            </div>
+                                            <div class=" col-lg  product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 14 Civi">
+                                                <p>Xiaomi 14 Civi</p>
+                                            </div>
+                                            <div class=" col-lg  product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 14 Civi">
+                                                <p>Xiaomi 14 Civi</p>
+                                            </div>
+                                        </div>
+                                        <div class="row product-category" id="redmi" style="display: none;">
+                                            <div class="col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Redmi 10">
+                                                <p>Redmi 10</p>
+                                            </div>
+                                            <div class="col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Redmi 12">
+                                                <p>Redmi 12</p>
+                                            </div>
+                                            <div class="col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Redmi 13">
+                                                <p>Redmi 13</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li>
                                 <a href="contact.html">CONTACTS</a>
@@ -341,6 +388,8 @@
             document.querySelector('.mobile-nav').classList.toggle('active');
         }
         Fancybox.bind("[data-fancybox]", {});
+
+
             </script>
         </body>
     </html>

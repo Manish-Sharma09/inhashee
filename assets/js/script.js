@@ -1,7 +1,23 @@
 (function ($) {
   "use strict";
   var windowOn = $(window);
+  // Header JS
+  document.querySelectorAll(".category").forEach((category) => {
+    category.addEventListener("mouseenter", function () {
+      document
+        .querySelectorAll(".category")
+        .forEach((c) => c.classList.remove("active"));
+      this.classList.add("active");
 
+      let selectedCategory = this.getAttribute("data-category");
+
+      document.querySelectorAll(".product-category").forEach((productList) => {
+        productList.style.display = "none";
+      });
+
+      document.getElementById(selectedCategory).style.display = "flex";
+    });
+  });
   // Preloader JS
   window.addEventListener("load", function () {
     document.getElementById("preloader").style.opacity = "0";
@@ -41,13 +57,12 @@
     });
   });
 
-
   $(document).ready(function () {
     $(".other-detail-slider").slick({
       dots: false,
       infinite: true,
       speed: 1000,
-      cssEase: 'linear',
+      cssEase: "linear",
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
