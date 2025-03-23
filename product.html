@@ -11,46 +11,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/fancybox.css">
-        <style type="text/css">
-            #foreground-video-container {
-                position: relative;
-                width: 100%;
-                height: 100%;
-                z-index: 1;
-                display: flex;
-                justify-content: right;
-                align-items: center;
-                right: 10%;
-            }
-
-            .__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after {
-                visibility: hidden !important;
-            }
-
-            #background-video {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                min-width: 100%;
-                min-height: 100%;
-                width: auto;
-                height: auto;
-                z-index: -1;
-                transform: translate(-50%, -50%);
-                filter: blur(10px);
-            }
-
-
-            .videoSliderSection.newVideoSd .video video {
-                width: 100%;
-                min-height: 100vh;
-            }
-
-            #foreground-video {
-                max-width: 100%;
-                max-height: 100%;
-            }
-        </style>
     </head>
     <body>
         <!-- Preloader  -->
@@ -99,13 +59,13 @@
             </header>
             <!-- Mobile Navigation -->
             <ul class="mobile-nav">
-                <li class="active">
+                <li>
                     <a href="index.html">HOME</a>
                 </li>
                 <li>
                     <a href="about.html">ABOUT US</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="product.html">PRODUCTS</a>
                 </li>
                 <li>
@@ -113,63 +73,7 @@
                 </li>
             </ul>
         </nav>
-        <!-- Bannner  -->
-        <section class="banner">
-            <div class="row fullwidth">
-                <div class="col-md-12 p-0">
-                    <ul class="bannerSlider">
-                        <!--  1. slide  -->
-                        <li class="slide">
-                            <a href="#">
-                                <div class="slide__text">
-                                    <h1>Inhashee</h1>
-                                    <h4>Committed to Excellence</h>
-                                    <!-- <button class="btn btn-main" href="javascript:;">
-                                        <span>CALL NOW</span>
-                                    </button> -->
-                                </div>
-                                <div class="slide__image">
-                                    <video loop="" muted="" preload="metadata" autoplay="" id="background-video">
-                                        <source src="assets/images/about_gif.mp4" type="video/mp4">
-                                    </video>
-                                    <div id="foreground-video-container">
-                                        <video autoplay="" muted="" loop="" id="foreground-video">
-                                            <source src="assets/images/about_gif.mp4" type="video/mp4">
-                                        </video>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!-- <section class="aboutUs detail-section ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="dets-img">
-                            <video
-                                class="img-fluid"
-                                muted
-                                loop
-                                autoplay
-                                src="assets/images/about_gif.mp4"
-                                alt=""
-                            >
-                            </div>
-                        </div>
-                        <div class="col-md-8 align-self-center">
-                            <div class="dets-content">
-                                <h2>ABOUT US</h2>
-                                <p>Our carefully chosen and highly trained staff is here to exceed your expectations. The same goes for our elegant salon space – dedicated to guest comfort – and our devotion to innovation and artistry. We’re focused on making your day and continually raising the bar.</p>
-                                <p>Centrally located in the City of Temecula, Salon Charlotte Hair offers a variety of hair care, nail care, and skin care services that are delivered with kindness and professionalism. Family-owned and operated for over four decades, the atmosphere is warm, inviting, and professional. Salon Charlotte Hair strives to deliver timely, professional services with a flare for style and energy.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+
         <!-- <section class="otherDetail detail-section ">
             <div class="row flex-row-reverse">
                 <div class="col-md-5">
@@ -199,26 +103,7 @@
                 </div>
             </div>
         </section> -->
-        <section class="fixed-content mt-0">
-            <div class="inner-content w-75">
-                <h2>OUR CLIENTS</h2>
-                <div class="other-detail-slider">
-                    <div class="other-detail-item">
-                        <img class="img-fluid" src="assets/images/other-slide-1.png" alt="">
-                    </div>
-                    <div class="other-detail-item">
-                        <img class="img-fluid" src="assets/images/other-slide-2.png" alt="">
-                    </div>
-                    <div class="other-detail-item">
-                        <img class="img-fluid" src="assets/images/other-slide-3.png" alt="">
-                    </div>
-                    <div class="other-detail-item">
-                        <img class="img-fluid" src="assets/images/other-slide-4.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- <section class="product-section">
+        <section class="product-section mt-5">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10">
@@ -329,7 +214,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <footer>
             <div class="container">
                 <div class="row">
@@ -367,6 +252,6 @@
             document.querySelector('.mobile-nav').classList.toggle('active');
         }
         Fancybox.bind("[data-fancybox]", {});
-        </script>
-    </body>
-</html>
+            </script>
+        </body>
+    </html>
