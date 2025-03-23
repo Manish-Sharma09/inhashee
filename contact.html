@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inhashee | About Us</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/fancybox.css">
+    </head>
+    <body>
+        <!-- Preloader  -->
+        <div class="preloader" id="preloader">
+            <div class="ring"></div>
+        </div>
+        <!-- Header -->
+        <nav class="fixed-header">
+            <header>
+                <div class="container">
+                    <div class="desktop-header">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/inhashee_logo.png" alt="">
+                            </a>
+                        </div>
+                        <ul class="nav-links">
+                            <li>
+                                <a href="index.html">HOME</a>
+                            </li>
+                            <li class="active">
+                                <a href="about.html">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="products.html">PRODUCTS</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!-- Mobile Header -->
+            <header class="mobile-header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/inhashee_logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+            <!-- Mobile Navigation -->
+            <ul class="mobile-nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#">OUR TEAM</a>
+                </li>
+                <li>
+                    <a href="#">PRICES</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACTS</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Bannner  -->
+        <div class="inner-banner">
+            <div class="container">
+                <div class="inner-banner-content">
+                    <h1>ABOUT US</h1>
+                    <div class="breadcrumb justify-content-center">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="contact">
+            <div class="row">
+                <div class="col-lg-6"></div>
+                <div class="col-lg-6"></div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-links">
+                            <p>Contacts</p>
+                            <span>+91 987654567</span>
+                            <span>example@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-links">
+                            <p>Address</p>
+                            <span>1420 Willis Avenue</span>
+                            <span>Jacksonville, FL 32216</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 align-self-center">
+                        <div class="footer-links">
+                            <a download="" href="assets/images/catalog.pdf">
+                                <button class="btn btn-main" href="javascript:;">
+                                    <span class="pb-0">DOWNLOAD CATALOG</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-end align-self-center">
+                        <div class="footer-logo logo">
+                            <a href="index.html">
+                                <img src="assets/images/inhashee_logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/fancybox.umd.js"></script>
+        <script>
+        function toggleMenu() {
+            document.querySelector('.menu-toggle').classList.toggle('active');
+            document.querySelector('.mobile-nav').classList.toggle('active');
+        }
+        Fancybox.bind("[data-fancybox]", {});
+        </script>
+    </body>
+</html>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Inhashee | Home</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
@@ -74,11 +74,58 @@
                             <li>
                                 <a href="about.html">ABOUT US</a>
                             </li>
-                            <li>
-                                <a href="product.html">PRODUCTS</a>
+                            <li class="products-menu">
+                                <a href="javascript:;">PRODUCTS</a>
+                                <!-- Mega Dropdown -->
+                                <div class="mega-menu">
+                                    <!-- Left Side - Categories -->
+                                    <ul class="category-list">
+                                        <li class="category active" data-category="xiaomi">Xiaomi Phones</li>
+                                        <li class="category" data-category="redmi">Redmi Phones</li>
+                                    </ul>
+                                    <!-- Right Side - Products -->
+                                    <div class="products-list">
+                                        <div class="row product-category" id="xiaomi">
+                                            <div class="col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 15 Ultra">
+                                                <p>Xiaomi 15 Ultra</p>
+                                            </div>
+                                            <div class=" col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 15">
+                                                <p>Xiaomi 15</p>
+                                            </div>
+                                            <div class=" col-lg  product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 14 Civi">
+                                                <p>Xiaomi 14 Civi</p>
+                                            </div>
+                                            <div class=" col-lg  product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 14 Civi">
+                                                <p>Xiaomi 14 Civi</p>
+                                            </div>
+                                            <div class=" col-lg  product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Xiaomi 14 Civi">
+                                                <p>Xiaomi 14 Civi</p>
+                                            </div>
+                                        </div>
+                                        <div class="row product-category" id="redmi" style="display: none;">
+                                            <div class="col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Redmi 10">
+                                                <p>Redmi 10</p>
+                                            </div>
+                                            <div class="col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Redmi 12">
+                                                <p>Redmi 12</p>
+                                            </div>
+                                            <div class="col-lg product-item">
+                                                <img src="assets/images/products/1000014883-Photoroom.png" alt="Redmi 13">
+                                                <p>Redmi 13</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">CONTACTS</a>
+                                <a href="contact.html">CONTACTS</a>
                             </li>
                         </ul>
                     </div>
@@ -109,7 +156,7 @@
                     <a href="product.html">PRODUCTS</a>
                 </li>
                 <li>
-                    <a href="#">CONTACTS</a>
+                    <a href="contact.html">CONTACTS</a>
                 </li>
             </ul>
         </nav>
@@ -144,61 +191,7 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="aboutUs detail-section ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="dets-img">
-                            <video
-                                class="img-fluid"
-                                muted
-                                loop
-                                autoplay
-                                src="assets/images/about_gif.mp4"
-                                alt=""
-                            >
-                            </div>
-                        </div>
-                        <div class="col-md-8 align-self-center">
-                            <div class="dets-content">
-                                <h2>ABOUT US</h2>
-                                <p>Our carefully chosen and highly trained staff is here to exceed your expectations. The same goes for our elegant salon space – dedicated to guest comfort – and our devotion to innovation and artistry. We’re focused on making your day and continually raising the bar.</p>
-                                <p>Centrally located in the City of Temecula, Salon Charlotte Hair offers a variety of hair care, nail care, and skin care services that are delivered with kindness and professionalism. Family-owned and operated for over four decades, the atmosphere is warm, inviting, and professional. Salon Charlotte Hair strives to deliver timely, professional services with a flare for style and energy.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- <section class="otherDetail detail-section ">
-            <div class="row flex-row-reverse">
-                <div class="col-md-5">
-                    <div class="dets-img">
-                        <img class="img-fluid" src="assets/images/other.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-md-7 align-self-end p-0">
-                    <div class="dets-content">
-                        <h2>CHOOSE YOURS</h2>
-                        <p>Our team is extremely talented and passionate. They are also among the most highly trained and educated technicians in the industry. This ensures each and every one of our clients receives world-class service – each and every time. We want your experience to be unlike any other.</p>
-                    </div>
-                    <div class="other-detail-slider">
-                        <div class="other-detail-item">
-                            <img class="img-fluid" src="assets/images/other-slide-1.png" alt="">
-                        </div>
-                        <div class="other-detail-item">
-                            <img class="img-fluid" src="assets/images/other-slide-2.png" alt="">
-                        </div>
-                        <div class="other-detail-item">
-                            <img class="img-fluid" src="assets/images/other-slide-3.png" alt="">
-                        </div>
-                        <div class="other-detail-item">
-                            <img class="img-fluid" src="assets/images/other-slide-4.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+        
         <section class="fixed-content mt-0">
             <div class="inner-content w-75">
                 <h2>OUR CLIENTS</h2>
@@ -218,118 +211,8 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="product-section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <h2>Products</h2>
-                        <div class="row mt-5">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="product-box">
-                                    <a
-                                        href="assets/images/products/best_btx.png"
-                                        data-fancybox="gallery"
-                                        data-caption="Best BTX"
-                                        class="image-wrapper"
-                                    >
-                                        <img class="img-fluid" src="assets/images/products/best_btx.png" alt="">
-                                        <div class="overlay">
-                                            <i class="fas fa-eye"></i>
-                                        </div>
-                                    </a>
-                                    <p>Best BTX</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="product-box">
-                                    <a
-                                        href="assets/images/products/hair_serum.png"
-                                        data-fancybox="gallery"
-                                        data-caption="Hai Serum"
-                                        class="image-wrapper"
-                                    >
-                                        <img class="img-fluid" src="assets/images/products/hair_serum.png" alt="">
-                                        <div class="overlay">
-                                            <i class="fas fa-eye"></i>
-                                        </div>
-                                    </a>
-                                    <p>Hai Serum</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="product-box">
-                                    <a
-                                        href="assets/images/products/hair_spa.png"
-                                        data-fancybox="gallery"
-                                        data-caption="Hair Spa"
-                                        class="image-wrapper"
-                                    >
-                                        <img class="img-fluid" src="assets/images/products/hair_spa.png" alt="">
-                                        <div class="overlay">
-                                            <i class="fas fa-eye"></i>
-                                        </div>
-                                    </a>
-                                    <p>Hair Spa</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="product-box">
-                                    <a
-                                        href="assets/images/products/nanoplastia.png"
-                                        data-fancybox="gallery"
-                                        data-caption="Nanoplastia"
-                                        class="image-wrapper"
-                                    >
-                                        <img class="img-fluid" src="assets/images/products/nanoplastia.png" alt="">
-                                        <div class="overlay">
-                                            <i class="fas fa-eye"></i>
-                                        </div>
-                                    </a>
-                                    <p>Nanoplastia</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="product-box">
-                                    <a
-                                        href="assets/images/products/ph_shampoo.png"
-                                        data-fancybox="gallery"
-                                        data-caption="PH + Shampoo"
-                                        class="image-wrapper"
-                                    >
-                                        <img class="img-fluid" src="assets/images/products/ph_shampoo.png" alt="">
-                                        <div class="overlay">
-                                            <i class="fas fa-eye"></i>
-                                        </div>
-                                    </a>
-                                    <p>PH + Shampoo</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="product-box">
-                                    <a
-                                        href="assets/images/products/post_conditiner.png"
-                                        data-fancybox="gallery"
-                                        data-caption="Post Conditioner"
-                                        class="image-wrapper"
-                                    >
-                                        <img class="img-fluid" src="assets/images/products/post_conditiner.png" alt="">
-                                        <div class="overlay">
-                                            <i class="fas fa-eye"></i>
-                                        </div>
-                                    </a>
-                                    <p>Post Conditioner</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center mt-4">
-                            <button class="btn btn-main dark" href="javascript:;">
-                                <span>VIEW ALL PRODUCTS</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+       
+   
         <footer>
             <div class="container">
                 <div class="row">
@@ -339,7 +222,9 @@
                             <span>+91 987654567</span>
                             <span>example@gmail.com</span>
                         </div>
+
                     </div>
+                
                     <div class="col-md-3">
                         <div class="footer-links">
                             <p>Address</p>
@@ -347,9 +232,21 @@
                             <span>Jacksonville, FL 32216</span>
                         </div>
                     </div>
-                    <div class="col-md-6 text-end align-self-center">
+             
+                    <div class="col-md-3 align-self-center">
+                        <div class="footer-links">
+                            <a download="" href="assets/images/catalog.pdf">
+                                <button class="btn btn-main" href="javascript:;">
+                                    <span class="pb-0">DOWNLOAD CATALOG</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-end align-self-center">
                         <div class="footer-logo logo">
-                            <a href="index.html"><img src="assets/images/inhashee_logo.png" alt=""></a>
+                            <a href="index.html">
+                                <img src="assets/images/inhashee_logo.png" alt="">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -367,6 +264,7 @@
             document.querySelector('.mobile-nav').classList.toggle('active');
         }
         Fancybox.bind("[data-fancybox]", {});
+
         </script>
     </body>
 </html>
