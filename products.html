@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inhashee | Products</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/fancybox.css">
+    </head>
+    <body>
+        <!-- Preloader  -->
+        <div class="preloader" id="preloader">
+            <div class="ring"></div>
+        </div>
+        <!-- Header -->
+        <nav class="fixed-header">
+            <header>
+                <div class="container">
+                    <div class="desktop-header">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/inhashee_logo.png" alt="">
+                            </a>
+                        </div>
+                        <ul class="nav-links">
+                            <li>
+                                <a href="index.html">HOME</a>
+                            </li>
+                            <li class="active">
+                                <a href="about.html">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="products.html">PRODUCTS</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!-- Mobile Header -->
+            <header class="mobile-header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/inhashee_logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+            <!-- Mobile Navigation -->
+            <ul class="mobile-nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#">OUR TEAM</a>
+                </li>
+                <li>
+                    <a href="#">PRICES</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACTS</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Bannner  -->
+        <div class="inner-banner products">
+            <div class="container">
+                <div class="inner-banner-content">
+                    <h1>PRODUCTS</h1>
+                    <div class="breadcrumb justify-content-center">
+                        <a href="index.html">Home</a>
+                        <a href="products.html">Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="product-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Products</h2>
+                <div class="row justify-content-center">
+                    <!-- Product Items -->
+                    <!-- 1. NANOPLASTIA -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Nanoplastia"
+                            data-image="assets/images/products/nanoplastia.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Restores Damaged Hair:</strong> Repairs and strengthens the hair from within.</li>
+                                    <li><strong>Semi-Permanent Straightening:</strong> Smooth hair while maintaining natural texture.</li>
+                                    <li><strong>Frizz Control:</strong> Reduces frizz and flyaways for sleek results.</li>
+                                    <li><strong>Moisture Lock:</strong> Keeps hair hydrated and soft.</li>
+                                    <li><strong>Adds Shine:</strong> Leaves hair glossy and smooth.</li>
+                                    <li><strong>Improves Manageability:</strong> Makes styling and detangling easier.</li>
+                                    <li><strong>Safe & Gentle:</strong> Protects hair structure during treatment.</li>
+                                </ul>
+                                <p><strong>MRP 31,990.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/nanoplastia.png" alt="Nanoplastia">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Nanoplastia</p>
+                        </div>
+                    </div>
+        
+                    <!-- 2. PROTEIN & COLLAGEN -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Protein & Collagen"
+                            data-image="assets/images/products/protein&collagen.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Strengthens Hair:</strong> Protein and collagen repair damaged hair, improving strength and resilience.</li>
+                                    <li><strong>Restores Elasticity:</strong> Enhances hair’s flexibility, reducing breakage and split ends.</li>
+                                    <li><strong>Smooths and Straightens:</strong> Provides semi-permanent straightening, leaving hair sleek and frizz-free.</li>
+                                    <li><strong>Hydrates and Nourishes:</strong> Locks in moisture, making hair soft and manageable.</li>
+                                    <li><strong>Adds Shine:</strong> Leaves hair glossy and healthy-looking.</li>
+                                    <li><strong>Improves Hair Texture:</strong> Makes hair smoother, reducing tangles and improving styling.</li>
+                                </ul>
+                                <p><strong>MRP 14,990.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/protein&collagen.png" alt="Protein & Collagen">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Protein & Collagen</p>
+                        </div>
+                    </div>
+        
+                    <!-- 3. BEST BTX -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Best BTX"
+                            data-image="assets/images/products/best_btx.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Strengthens Hair:</strong> Repairs and fortifies the hair with hydrolyzed rice protein.</li>
+                                    <li><strong>Deep Conditioning:</strong> Provides intense moisture, leaving hair soft and smooth.</li>
+                                    <li><strong>Frizz Control:</strong> Reduces frizz for a sleek, polished look.</li>
+                                    <li><strong>Adds Shine:</strong> Jojoba and argan oils impart a glossy finish.</li>
+                                    <li><strong>Improves Manageability:</strong> Makes hair easier to comb and style.</li>
+                                    <li><strong>Nourishes Scalp:</strong> Vitamin B5 promotes healthy scalp and hair.</li>
+                                    <li><strong>Smooths Hair:</strong> Behentrinonium chloride and dimethicone deliver a silky texture.</li>
+                                </ul>
+                                <p><strong>MRP 19,990.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/best_btx.png" alt="Best BTX">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Best BTX</p>
+                        </div>
+                    </div>
+        
+                    <!-- 4. PH+ SHAMPOO -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="PH+ Shampoo"
+                            data-image="assets/images/products/ph_shampoo.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Cleanses Gently:</strong> Removes impurities without stripping natural oils.</li>
+                                    <li><strong>Strengthens Hair:</strong> Pea protein and Polyquaternium-10 repair and fortify the hair.</li>
+                                    <li><strong>Promotes Hair Growth:</strong> Amla, Bhringraj, and Jaborandi extracts support healthy hair growth.</li>
+                                    <li><strong>Adds Shine and Softness:</strong> Hibiscus extract and Cetyl alcohol smoothen and add shine.</li>
+                                    <li><strong>Controls Frizz:</strong> Guar Hydroxypropyltrimonium Chloride and Polyquaternium-10 manage frizz and enhance smoothness.</li>
+                                    <li><strong>Balances Scalp pH:</strong> Citric acid helps balance the scalp’s pH, promoting overall scalp health.</li>
+                                    <li><strong>Moisturizes Hair:</strong> Glycerin locks in moisture, keeping hair hydrated.</li>
+                                </ul>
+                                <p><strong>MRP 2,890.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/ph_shampoo.png" alt="PH+ Shampoo">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>PH+ Shampoo</p>
+                        </div>
+                    </div>
+        
+                    <!-- 5. POST SHAMPOO (Deep Hydration) -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Post Shampoo (Deep Hydration)"
+                            data-image="assets/images/products/post_shampoo.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Deep Hydration:</strong> Locks in moisture to keep hair hydrated and healthy.</li>
+                                    <li><strong>Prevents Dryness:</strong> Helps maintain optimal moisture levels, preventing dryness.</li>
+                                    <li><strong>Smooths and Softens:</strong> Leaves hair feeling soft, smooth, and manageable.</li>
+                                    <li><strong>Improves Elasticity:</strong> Enhances hair flexibility, reducing breakage.</li>
+                                    <li><strong>Frizz Control:</strong> Reduces frizz for a sleek, polished look.</li>
+                                    <li><strong>Adds Shine:</strong> Provides a glossy, vibrant finish to hair.</li>
+                                </ul>
+                                <p><strong>MRP 1,390.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/post_shampoo.png" alt="Post Shampoo">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Post Shampoo</p>
+                        </div>
+                    </div>
+        
+                    <!-- 6. POST SHAMPOO (Intense Hydration) -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Post Shampoo (Intense Hydration)"
+                            data-image="assets/images/products/post_shampoo02.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Deep Hydration:</strong> Locks in moisture to keep hair hydrated and healthy.</li>
+                                    <li><strong>Prevents Dryness:</strong> Helps maintain optimal moisture levels, preventing dryness.</li>
+                                    <li><strong>Smooths and Softens:</strong> Leaves hair feeling soft, smooth, and manageable.</li>
+                                    <li><strong>Improves Elasticity:</strong> Enhances hair flexibility, reducing breakage.</li>
+                                    <li><strong>Frizz Control:</strong> Reduces frizz for a sleek, polished look.</li>
+                                    <li><strong>Adds Shine:</strong> Provides a glossy, vibrant finish to hair.</li>
+                                </ul>
+                                <p><strong>MRP 1,390.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/post_shampoo02.png" alt="Post Shampoo">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Post Shampoo</p>
+                        </div>
+                    </div>
+        
+                    <!-- 7. POST CONDITIONER (Intense Hydration) -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Post Conditioner (Intense Hydration)"
+                            data-image="assets/images/products/post_conditiner.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Intense Hydration:</strong> Deeply moisturizes hair, keeping it soft and nourished.</li>
+                                    <li><strong>Reduces Frizz:</strong> Smooths hair and controls frizz for a sleek look.</li>
+                                    <li><strong>Strengthens Hair:</strong> Helps repair damage and reduces breakage.</li>
+                                    <li><strong>Improves Manageability:</strong> Makes hair easier to detangle and style.</li>
+                                    <li><strong>Enhances Shine:</strong> Leaves hair looking glossy and vibrant.</li>
+                                    <li><strong>Softens Hair:</strong> Provides a silky, smooth texture without weighing it down.</li>
+                                </ul>
+                                <p><strong>MRP 3,190.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/post_conditiner.png" alt="Post Conditioner">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Post Conditioner</p>
+                        </div>
+                    </div>
+        
+                    <!-- 8. POST CONDITIONER (Deep Hydration) -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Post Conditioner (Deep Hydration)"
+                            data-image="assets/images/products/post_conditiner02.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Intense Hydration:</strong> Deeply moisturizes hair, keeping it soft and nourished.</li>
+                                    <li><strong>Reduces Frizz:</strong> Smooths hair and controls frizz for a sleek look.</li>
+                                    <li><strong>Strengthens Hair:</strong> Helps repair damage and reduces breakage.</li>
+                                    <li><strong>Improves Manageability:</strong> Makes hair easier to detangle and style.</li>
+                                    <li><strong>Enhances Shine:</strong> Leaves hair looking glossy and vibrant.</li>
+                                    <li><strong>Softens Hair:</strong> Provides a silky, smooth texture without weighing it down.</li>
+                                </ul>
+                                <p><strong>MRP 1,390.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/post_conditiner02.png" alt="Post Conditioner">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Post Conditioner</p>
+                        </div>
+                    </div>
+        
+                    <!-- 9. HAIR SPA -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Hair Spa"
+                            data-image="assets/images/products/hair_spa.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Cleanses Gently:</strong> Removes impurities without stripping natural oils.</li>
+                                    <li><strong>Strengthens Hair:</strong> Pea protein and Polyquaternium-10 repair and fortify the hair.</li>
+                                    <li><strong>Promotes Hair Growth:</strong> Amla, Bhringraj, and Jaborandi extracts support healthy hair growth.</li>
+                                    <li><strong>Adds Shine and Softness:</strong> Hibiscus extract and Cetyl alcohol smoothen and add shine.</li>
+                                    <li><strong>Controls Frizz:</strong> Guar Hydroxypropyltrimonium Chloride and Polyquaternium-10 manage frizz and enhance smoothness.</li>
+                                    <li><strong>Balances Scalp pH:</strong> Citric acid helps balance the scalp’s pH, promoting overall scalp health.</li>
+                                    <li><strong>Moisturizes Hair:</strong> Glycerin locks in moisture, keeping hair hydrated.</li>
+                                </ul>
+                                <p><strong>MRP 3,350.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/hair_spa.png" alt="Hair Spa">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Hair Spa</p>
+                        </div>
+                    </div>
+        
+                    <!-- 10. HAIR SERUM -->
+                    <div class="col-md-4 col-sm-6">
+                        <div
+                            class="product-box"
+                            data-name="Hair Serum"
+                            data-image="assets/images/products/hair_serum.png"
+                            data-description="
+                                <ul>
+                                    <li><strong>Adds Shine:</strong> Cyclopentasiloxane and dimethiconol provide a glossy, smooth finish.</li>
+                                    <li><strong>Frizz Control:</strong> Controls frizz and flyaways for a polished look.</li>
+                                    <li><strong>Nourishes Hair:</strong> Jojoba oil and argan oil deeply nourish and moisturize hair.</li>
+                                    <li><strong>Strengthens Hair:</strong> Keratin protein repairs and fortifies hair, reducing breakage.</li>
+                                    <li><strong>Lightweight Formula:</strong> Non-greasy and lightweight, leaving hair feeling soft and silky.</li>
+                                    <li><strong>Improves Manageability:</strong> Makes hair easier to style and reduces tangles.</li>
+                                </ul>
+                                <p><strong>MRP 790.00</strong></p>"
+                            onclick="openModal(this)"
+                        >
+                            <div class="image-wrapper">
+                                <img class="img-fluid" src="assets/images/products/hair_serum.png" alt="Hair Serum">
+                                <div class="overlay">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <p>Hair Serum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap Modal -->
+        <div
+            class="modal fade"
+            id="productModal"
+            tabindex="-1"
+            aria-labelledby="productModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel"></h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img
+                            id="productModalImage"
+                            class="img-fluid mb-3"
+                            src=""
+                            alt=""
+                        >
+                        <p id="productModalDescription"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-links">
+                            <p>Contacts</p>
+                            <span>+91 987654567</span>
+                            <span>example@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-links">
+                            <p>Address</p>
+                            <span>1420 Willis Avenue</span>
+                            <span>Jacksonville, FL 32216</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 align-self-center">
+                        <div class="footer-links">
+                            <a download="" href="assets/images/catalog.pdf">
+                                <button class="btn btn-main" href="javascript:;">
+                                    <span class="pb-0">DOWNLOAD CATALOG</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-end align-self-center">
+                        <div class="footer-logo logo">
+                            <a href="index.html">
+                                <img src="assets/images/inhashee_logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/fancybox.umd.js"></script>
+        <script>
+        function toggleMenu() {
+            document.querySelector('.menu-toggle').classList.toggle('active');
+            document.querySelector('.mobile-nav').classList.toggle('active');
+        }
+        Fancybox.bind("[data-fancybox]", {});
+        </script>
+        <script>
+               function openModal(element) {
+        const name = element.getAttribute("data-name");
+        const image = element.getAttribute("data-image");
+        const description = element.getAttribute("data-description");
+
+        // Set the modal title and image
+        document.getElementById("productModalLabel").innerText = name;
+        document.getElementById("productModalImage").src = image;
+        document.getElementById("productModalImage").alt = name;
+
+        // Use innerHTML to render the list properly
+        document.getElementById("productModalDescription").innerHTML = description;
+
+        // Show the modal
+        const modal = new bootstrap.Modal(document.getElementById("productModal"));
+        modal.show();
+    }
+        </script>
+    </body>
+</html>
